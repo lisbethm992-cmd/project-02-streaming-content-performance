@@ -121,7 +121,11 @@ Based on the analysis, the following recommendations were identified:
 - Data Storytelling
 
 ---
+## Project Files
 
+- Streaming_Content_Performance.xlsx → Complete Excel analysis including raw data, pivot tables, and dashboard.
+- Dashboard1.png → Dashboard preview image.
+- 
 ## Project Status
 
 Completed
