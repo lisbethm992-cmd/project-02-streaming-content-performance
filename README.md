@@ -81,7 +81,7 @@ The analysis focuses on the following performance indicators:
 
 ## Dashboard Preview
 
-![Dashboard Preview](Dashboard_Preview.png)
+![Dashboard Preview](Dashboard1.png)
 
 ---
 
