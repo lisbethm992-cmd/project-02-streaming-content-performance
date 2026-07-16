@@ -1,35 +1,35 @@
-# Streaming Content Performance Analysis
+# Streaming Content Performance Dashboard
 
 ## Project Overview
 
-This project analyzes streaming platform content performance to identify audience engagement trends, top-performing titles, and insights that can support content strategy decisions.
+This project analyzes a streaming platform content catalog using Microsoft Excel to identify trends in titles, genres, countries, ratings, and content distribution over time.
 
-The goal is to transform raw streaming data into meaningful business insights by analyzing content popularity, user engagement, ratings, and performance indicators using Microsoft Excel.
+The objective is to transform raw catalog data into meaningful business insights through data cleaning, pivot table analysis, and an interactive dashboard.
 
 ---
 
 ## Business Problem
 
-Streaming platforms need to understand which types of content perform best in order to optimize their catalog, improve user engagement, and make data-driven decisions about future content investments.
+Streaming platforms manage thousands of titles across different genres, countries, and release years. Understanding the composition of the content catalog helps support strategic decisions related to content acquisition, regional expansion, and catalog planning.
 
-This project explores content performance metrics to answer key business questions:
+This project answers questions such as:
 
-- Which genres generate the highest engagement?
-- Which titles are the most successful?
-- Do movies or series perform better?
-- What factors influence content popularity?
-- Which content categories could represent growth opportunities?
+- How many Movies and TV Shows are available?
+- Which countries contribute the most titles?
+- Which content ratings are the most common?
+- How has the catalog grown over the years?
+- Which genres dominate the platform?
 
 ---
 
 ## Project Objectives
 
-- Analyze streaming content performance metrics.
-- Identify trends in audience engagement and content consumption.
-- Compare performance across genres and content types.
-- Discover top-performing movies and series.
-- Create a dashboard to visualize key insights.
-- Provide recommendations based on data analysis.
+- Analyze the distribution of Movies and TV Shows.
+- Explore content growth over time.
+- Identify the countries with the largest number of titles.
+- Analyze the most common content ratings.
+- Identify the most represented genres.
+- Build an interactive dashboard to visualize key metrics.
 
 ---
 
@@ -37,45 +37,26 @@ This project explores content performance metrics to answer key business questio
 
 | Tool | Purpose |
 |------|---------|
-| Microsoft Excel | Data Analysis and Visualization |
-| Power Query | Data Cleaning and Transformation |
-| Pivot Tables | Data Exploration and KPI Analysis |
+| Microsoft Excel | Data Analysis |
+| Power Query | Data Cleaning |
+| Pivot Tables | Data Aggregation |
 | Excel Charts | Data Visualization |
-| Dashboard Design | Business Insights Presentation |
+| Dashboard Design | Interactive Reporting |
 
 ---
 
 ## Dataset Information
 
-The dataset used in this project is a simulated streaming platform dataset created for analytical purposes.
+The dataset is based on a streaming platform content catalog and includes information such as:
 
-It includes information about:
-
-- Content titles
-- Content type (Movie / Series)
-- Genre categories
-- Release year
+- Title
+- Type (Movie or TV Show)
 - Country
-- Views
-- Watch time
-- Ratings
-- Completion rate
-- Audience engagement metrics
-
----
-
-## Key Metrics Analyzed
-
-The analysis focuses on the following performance indicators:
-
-- Total Content Titles
-- Total Views
-- Total Watch Time
-- Average Content Rating
-- Completion Rate
-- Performance by Genre
-- Performance by Content Type
-- Top Performing Titles
+- Release Year
+- Date Added
+- Rating
+- Genre
+- Duration
 
 ---
 
@@ -85,47 +66,55 @@ The analysis focuses on the following performance indicators:
 
 ---
 
-## Key Insights
+## Dashboard Highlights
 
-The analysis revealed important patterns related to content performance and audience behavior:
+The dashboard includes the following key metrics:
 
-- Identified the highest-performing content categories based on views and engagement.
-- Compared performance differences between movies and series.
-- Analyzed audience retention through completion rates.
-- Highlighted top-performing titles with strong viewer engagement.
-- Discovered trends that can support content investment decisions.
+- Total Titles
+- Movies vs TV Shows
+- Total Countries
+- Year Range
+- Most Common Rating
+- Titles Added by Year
+- Top 10 Countries by Number of Titles
+- Titles by Rating
+- Titles by Genre (Top 10)
+- Content Type Trend Over the Years
 
 ---
 
-## Business Recommendations
+## Key Insights
 
-Based on the analysis, the following recommendations were identified:
+The analysis revealed several important trends:
 
-- Prioritize investment in high-performing genres with strong audience engagement.
-- Use viewer behavior insights to improve content acquisition strategies.
-- Monitor completion rates to evaluate content quality and user satisfaction.
-- Develop targeted strategies for increasing audience retention.
-- Continuously track content KPIs to support data-driven decisions.
+- Movies represent the majority of the catalog.
+- TV-MA is the most common content rating.
+- The catalog experienced significant growth between 2016 and 2020.
+- India and the United States contribute a large portion of the available titles.
+- Drama-related genres dominate the content catalog.
 
 ---
 
 ## Skills Demonstrated
 
 - Data Cleaning
-- Data Analysis
-- Content Analytics
+- Data Transformation
+- Pivot Tables
+- Dashboard Design
 - KPI Development
-- Excel Dashboard Creation
 - Data Visualization
-- Business Intelligence
+- Business Analysis
 - Data Storytelling
 
 ---
-## Project Files
 
-- Streaming_Content_Performance.xlsx → Complete Excel analysis including raw data, pivot tables, and dashboard.
-- Dashboard1.png → Dashboard preview image.
-- 
+## Files Included
+
+- **Streaming_Content_Performance.xlsx** – Complete Excel workbook containing Raw Data, Data Summary, and Dashboard.
+- **Dashboard1.png** – Dashboard preview image.
+
+---
+
 ## Project Status
 
-Completed
+**Completed**
